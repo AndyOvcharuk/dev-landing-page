@@ -1,8 +1,7 @@
-/* Typography */
-
 html {
 	font-family: 'Roboto', sans-serif;
 }
+
 
 @media (min-width: 576px) {
 	html {
@@ -32,7 +31,6 @@ html {
 	font-size: 3em;
 }
 
-/* Custom Styles */
 
 main {
 	display: flex;
@@ -57,6 +55,12 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
+}
+
+.icons-social i:hover, .icons-social i:focus {
+    font-weight: 700;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff; 
 }
 
 .devto {

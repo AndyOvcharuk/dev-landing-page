@@ -1,7 +1,8 @@
 /* Theme */
 
 main {
-	background: #303F9F;
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 34%, rgba(9,9,121,1) 80%, rgba(1,0,179,1) 100%);
 	color: #FAFAFA;
 }
 
